@@ -1,14 +1,499 @@
-<p>
-  Howdy! Here's a list of awesome computer scientists.
-  Do you know any others? Add to the list yourself.
-</p>
+<section>
+	<div class="inner-wrap">
+		<div id="content-header">
+			<h1>Преглед и търсене на документи</h1>
+		</div>
+		<div id="content" class="clearfix">
+			<div id="leftside">
+				the tree component shall go there
+			</div>
+			<div id="main">
+				<h3 class="first">Документи за обработка</h3>
 
-<form (submit)="addName()">
-  <input [(ngModel)]="newName" name="newName" placeholder="Awesome Computer Scientist">
-  <button type="submit">Add</button>
-</form>
-
-
-<ul>
-  <li *ngFor="let name of names">{{name}}</li>
-</ul>
+<p-datatable>
+        <div class="ui-datatable ui-widget">
+            <!--template bindings={}-->
+            <!--template bindings={}-->
+            <!--template bindings={}--><div class="ui-datatable-tablewrapper">
+                <table>
+                    <thead>
+                        <!--template bindings={}--><tr class="ui-state-default">
+                            <!--template bindings={}--><th class="ui-state-default ui-unselectable-text" style="display: table-cell;" draggable="false">
+                                <!--template bindings={}-->
+                                <!--template bindings={}--><span class="ui-column-title">Съдържател</span>
+                                <!--template bindings={}-->
+                                <!--template bindings={}-->
+                                <!--template bindings={}-->
+                            </th><th class="ui-state-default ui-unselectable-text" style="display: table-cell;" draggable="false">
+                                <!--template bindings={}-->
+                                <!--template bindings={}--><span class="ui-column-title">Тип</span>
+                                <!--template bindings={}-->
+                                <!--template bindings={}-->
+                                <!--template bindings={}-->
+                            </th><th class="ui-state-default ui-unselectable-text" style="display: table-cell;" draggable="false">
+                                <!--template bindings={}-->
+                                <!--template bindings={}--><span class="ui-column-title">Име</span>
+                                <!--template bindings={}-->
+                                <!--template bindings={}-->
+                                <!--template bindings={}-->
+                            </th><th class="ui-state-default ui-unselectable-text" style="display: table-cell;" draggable="false">
+                                <!--template bindings={}-->
+                                <!--template bindings={}--><span class="ui-column-title">Описание</span>
+                                <!--template bindings={}-->
+                                <!--template bindings={}-->
+                                <!--template bindings={}-->
+                            </th><th class="ui-state-default ui-unselectable-text" style="display: table-cell;" draggable="false">
+                                <!--template bindings={}-->
+                                <!--template bindings={}--><span class="ui-column-title">Статус</span>
+                                <!--template bindings={}-->
+                                <!--template bindings={}-->
+                                <!--template bindings={}-->
+                            </th><th class="col-button ui-state-default ui-unselectable-text" style="display: table-cell;" draggable="false">
+                                <!--template bindings={}-->
+                                <!--template bindings={}--><span class="ui-column-title"></span>
+                                <!--template bindings={}-->
+                                <!--template bindings={}-->
+                                <!--template bindings={}-->
+                            </th><th class="col-button ui-state-default ui-unselectable-text" style="display: table-cell;" draggable="false">
+                                <!--template bindings={}-->
+                                <!--template bindings={}--><span class="ui-column-title"></span>
+                                <!--template bindings={}-->
+                                <!--template bindings={}-->
+                                <!--template bindings={}-->
+                            </th>
+                        </tr>
+                        <!--template bindings={}-->
+                    </thead>
+                    <!--template bindings={}-->
+                    <tbody class="ui-datatable-data ui-widget-content">
+                        <!--template bindings={}-->
+                            <tr class="ui-widget-content ui-datatable-even">
+                                <!--template bindings={}--><td style="display: table-cell;">
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}--><span class="ui-cell-data">Текстова папка</span>
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                </td><td style="display: table-cell;">
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}--><span class="ui-cell-data">Демо тип</span>
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                </td><td style="display: table-cell;">
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}--><span class="ui-cell-data">Име на документа</span>
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                </td><td style="display: table-cell;">
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}--><span class="ui-cell-data">Съдържа адрес на лице</span>
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                </td><td style="display: table-cell;">
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}--><span class="ui-cell-data">Текущ</span>
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                </td><td class="col-button" style="display: table-cell;">
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}--><span class="ui-cell-data">
+                                        <p-columntemplateloader></p-columntemplateloader>
+                <button icon="fa-search" pbutton="" type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only"><span class="ui-button-icon-left ui-c fa fa-fw fa-unlink"></span><span class="ui-button-text ui-c">ui-button</span></button>
+            
+                                    </span>
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                </td><td class="col-button" style="display: table-cell;">
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}--><span class="ui-cell-data">
+                                        <p-columntemplateloader></p-columntemplateloader>
+                <button icon="fa-search" pbutton="" type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only"><span class="ui-button-icon-left ui-c fa fa-fw fa-external-link"></span><span class="ui-button-text ui-c">ui-button</span></button>
+            
+                                    </span>
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                </td>
+                            </tr>
+                            <!--template bindings={}-->
+                        
+                            <tr class="ui-widget-content ui-datatable-odd">
+                                <!--template bindings={}--><td style="display: table-cell;">
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}--><span class="ui-cell-data">Текстова папка</span>
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                </td><td style="display: table-cell;">
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}--><span class="ui-cell-data">Демо тип</span>
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                </td><td style="display: table-cell;">
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}--><span class="ui-cell-data">Име на документа</span>
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                </td><td style="display: table-cell;">
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}--><span class="ui-cell-data">Съдържа адрес на лице</span>
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                </td><td style="display: table-cell;">
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}--><span class="ui-cell-data">Текущ</span>
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                </td><td class="col-button" style="display: table-cell;">
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}--><span class="ui-cell-data">
+                                        <p-columntemplateloader></p-columntemplateloader>
+                <button icon="fa-search" pbutton="" type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only"><span class="ui-button-icon-left ui-c fa fa-fw fa-unlink"></span><span class="ui-button-text ui-c">ui-button</span></button>
+            
+                                    </span>
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                </td><td class="col-button" style="display: table-cell;">
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}--><span class="ui-cell-data">
+                                        <p-columntemplateloader></p-columntemplateloader>
+                <button icon="fa-search" pbutton="" type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only"><span class="ui-button-icon-left ui-c fa fa-fw fa-external-link"></span><span class="ui-button-text ui-c">ui-button</span></button>
+            
+                                    </span>
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                </td>
+                            </tr>
+                            <!--template bindings={}-->
+                            <tr class="ui-widget-content ui-datatable-even">
+                                <!--template bindings={}--><td style="display: table-cell;">
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}--><span class="ui-cell-data">Текстова папка</span>
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                </td><td style="display: table-cell;">
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}--><span class="ui-cell-data">Демо тип</span>
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                </td><td style="display: table-cell;">
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}--><span class="ui-cell-data">Име на документа</span>
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                </td><td style="display: table-cell;">
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}--><span class="ui-cell-data">Съдържа адрес на лице</span>
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                </td><td style="display: table-cell;">
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}--><span class="ui-cell-data">Текущ</span>
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                </td><td class="col-button" style="display: table-cell;">
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}--><span class="ui-cell-data">
+                                        <p-columntemplateloader></p-columntemplateloader>
+                <button icon="fa-search" pbutton="" type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only"><span class="ui-button-icon-left ui-c fa fa-fw fa-unlink"></span><span class="ui-button-text ui-c">ui-button</span></button>
+            
+                                    </span>
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                </td><td class="col-button" style="display: table-cell;">
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}--><span class="ui-cell-data">
+                                        <p-columntemplateloader></p-columntemplateloader>
+                <button icon="fa-search" pbutton="" type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only"><span class="ui-button-icon-left ui-c fa fa-fw fa-external-link"></span><span class="ui-button-text ui-c">ui-button</span></button>
+            
+                                    </span>
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                </td>
+                            </tr>
+                            <!--template bindings={}-->
+                        
+                            <tr class="ui-widget-content ui-datatable-odd">
+                                <!--template bindings={}--><td style="display: table-cell;">
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}--><span class="ui-cell-data">Текстова папка</span>
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                </td><td style="display: table-cell;">
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}--><span class="ui-cell-data">Демо тип</span>
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                </td><td style="display: table-cell;">
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}--><span class="ui-cell-data">Име на документа</span>
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                </td><td style="display: table-cell;">
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}--><span class="ui-cell-data">Съдържа адрес на лице</span>
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                </td><td style="display: table-cell;">
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}--><span class="ui-cell-data">Текущ</span>
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                </td><td class="col-button" style="display: table-cell;">
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}--><span class="ui-cell-data">
+                                        <p-columntemplateloader></p-columntemplateloader>
+                <button icon="fa-search" pbutton="" type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only"><span class="ui-button-icon-left ui-c fa fa-fw fa-unlink"></span><span class="ui-button-text ui-c">ui-button</span></button>
+            
+                                    </span>
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                </td><td class="col-button" style="display: table-cell;">
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}--><span class="ui-cell-data">
+                                        <p-columntemplateloader></p-columntemplateloader>
+                <button icon="fa-search" pbutton="" type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only"><span class="ui-button-icon-left ui-c fa fa-fw fa-external-link"></span><span class="ui-button-text ui-c">ui-button</span></button>
+            
+                                    </span>
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                </td>
+                            </tr>
+                            <!--template bindings={}-->                        
+                            <tr class="ui-widget-content ui-datatable-even">
+                                <!--template bindings={}--><td style="display: table-cell;">
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}--><span class="ui-cell-data">Текстова папка</span>
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                </td><td style="display: table-cell;">
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}--><span class="ui-cell-data">Демо тип</span>
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                </td><td style="display: table-cell;">
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}--><span class="ui-cell-data">Име на документа</span>
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                </td><td style="display: table-cell;">
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}--><span class="ui-cell-data">Съдържа адрес на лице</span>
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                </td><td style="display: table-cell;">
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}--><span class="ui-cell-data">Текущ</span>
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                </td><td class="col-button" style="display: table-cell;">
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}--><span class="ui-cell-data">
+                                        <p-columntemplateloader></p-columntemplateloader>
+                <button icon="fa-search" pbutton="" type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only"><span class="ui-button-icon-left ui-c fa fa-fw fa-unlink"></span><span class="ui-button-text ui-c">ui-button</span></button>
+            
+                                    </span>
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                </td><td class="col-button" style="display: table-cell;">
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}--><span class="ui-cell-data">
+                                        <p-columntemplateloader></p-columntemplateloader>
+                <button icon="fa-search" pbutton="" type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only"><span class="ui-button-icon-left ui-c fa fa-fw fa-external-link"></span><span class="ui-button-text ui-c">ui-button</span></button>
+            
+                                    </span>
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                </td>
+                            </tr>
+                            <!--template bindings={}-->
+                        
+                            <tr class="ui-widget-content ui-datatable-odd">
+                                <!--template bindings={}--><td style="display: table-cell;">
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}--><span class="ui-cell-data">Текстова папка</span>
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                </td><td style="display: table-cell;">
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}--><span class="ui-cell-data">Демо тип</span>
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                </td><td style="display: table-cell;">
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}--><span class="ui-cell-data">Име на документа</span>
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                </td><td style="display: table-cell;">
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}--><span class="ui-cell-data">Съдържа адрес на лице</span>
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                </td><td style="display: table-cell;">
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}--><span class="ui-cell-data">Текущ</span>
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                </td><td class="col-button" style="display: table-cell;">
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}--><span class="ui-cell-data">
+                                        <p-columntemplateloader></p-columntemplateloader>
+                <button icon="fa-search" pbutton="" type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only"><span class="ui-button-icon-left ui-c fa fa-fw fa-unlink"></span><span class="ui-button-text ui-c">ui-button</span></button>
+            
+                                    </span>
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                </td><td class="col-button" style="display: table-cell;">
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}--><span class="ui-cell-data">
+                                        <p-columntemplateloader></p-columntemplateloader>
+                <button icon="fa-search" pbutton="" type="button" class="ui-button ui-widget ui-state-hover ui-corner-all ui-button-icon-only"><span class="ui-button-icon-left ui-c fa fa-fw fa-external-link"></span><span class="ui-button-text ui-c">ui-button</span></button>
+            
+                                    </span>
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                    <!--template bindings={}-->
+                                </td>
+                            </tr>
+                            <!--template bindings={}-->                        
+                        
+                        <!--template bindings={}-->
+                    </tbody>
+                </table>
+                <div class="ui-column-resizer-helper ui-state-highlight" style="display:none"></div>
+                <span class="fa fa-arrow-down ui-datatable-reorder-indicator-up" style="position: absolute; display: none;"></span>
+                <span class="fa fa-arrow-up ui-datatable-reorder-indicator-down" style="position: absolute; display: none;"></span>
+            </div>
+            <!--template bindings={}-->
+            <!--template bindings={}-->
+            <!--template bindings={}-->
+            <!--template bindings={}-->
+        </div>
+    </p-datatable>
+	
+			</div>
+		</div>
+	</div>
+</section>

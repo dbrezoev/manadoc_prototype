@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { REACTIVE_FORM_DIRECTIVES } from '@angular/forms';
+import { DataTable } from 'primeng/components/datatable/datatable';
 
-import { NameListService } from '../shared/index';
 
 /**
  * This class represents the lazy loaded HomeComponent.
@@ -10,8 +10,8 @@ import { NameListService } from '../shared/index';
   moduleId: module.id,
   selector: 'sd-home',
   templateUrl: 'home.component.html',
-  styleUrls: ['home.component.css'],
-  directives: [REACTIVE_FORM_DIRECTIVES]
+  // styleUrls: ['home.component.css'],
+  directives: [REACTIVE_FORM_DIRECTIVES, DataTable]
 })
 export class HomeComponent implements OnInit {
 
@@ -25,35 +25,13 @@ export class HomeComponent implements OnInit {
    *
    * @param {NameListService} nameListService - The injected NameListService.
    */
-  constructor(public nameListService: NameListService) {}
+  constructor() {}
 
   /**
    * Get the names OnInit
    */
   ngOnInit() {
-    this.getNames();
-  }
-
-  /**
-   * Handle the nameListService observable
-   */
-  getNames() {
-    this.nameListService.get()
-                     .subscribe(
-                       names => this.names = names,
-                       error =>  this.errorMessage = <any>error
-                       );
-  }
-
-  /**
-   * Pushes a new name onto the names array
-   * @return {boolean} false to prevent default form submit behavior to refresh the page.
-   */
-  addName(): boolean {
-    // TODO: implement nameListService.post
-    this.names.push(this.newName);
-    this.newName = '';
-    return false;
+   
   }
 
 }
